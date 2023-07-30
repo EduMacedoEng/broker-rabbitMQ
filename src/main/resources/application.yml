@@ -7,5 +7,7 @@ spring:
 
 rabbitmq-params:
   queue-name: javaguides
-  exchange-name: javaguides_exchange
   routing-key-name: javaguides_routing_key
+  queue-name-json: javaguides_json
+  routing-key-name-json: javaguides_routing_key_json
+  exchange-name: javaguides_exchange
